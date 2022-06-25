@@ -1,0 +1,56 @@
+body{
+background-color: rgb(175, 204, 194);
+
+}
+
+.Contenedor{
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+  display: flex;
+
+}
+
+.hijo{
+  width: 700px;
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 10%;
+  box-shadow: 10px 10px 10px 10px rgba(56, 54, 54, 0.37);
+  border-radius: 20px;
+}
+.fa-solid {
+  display: inline-block;
+  margin-right: 80%;
+ font-size: 80px;
+}
+button{
+ 
+  background-color: transparent;
+  border: transparent;
+  margin-left: 80%;
+}
+
+h1{
+  font-size: large;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+p{
+  margin-right: 4rem;
+  font-size: large;
+  margin-left: 80%;
+}
+
+.fa-share{
+  margin-left: 20%;
+  font-size: 50px;
+  padding-bottom: 2rem;
+}
